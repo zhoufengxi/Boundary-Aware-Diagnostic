@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bug Summary Statistics</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 40px; }
+  h1 { color: #333; }
+  table { border-collapse: collapse; width: 100%; max-width: 900px; }
+  th, td { padding: 8px 12px; text-align: left; border: 1px solid #ddd; }
+  th { background: #4CAF50; color: white; position: sticky; top: 0; }
+  tr:nth-child(even) { background: #f9f9f9; }
+  tr:hover { background: #e8f5e9; }
+  .total-row { font-weight: bold; background: #fff3cd !important; }
+  .total-row td { border-top: 3px solid #f0ad4e; }
+</style>
+</head>
+<body>
+<h1>Bug Summary Statistics — Test Case Directories x Bug Kinds</h1>
+<table>
+<thead><tr><th>category</th><th>bug_kind</th><th>allocated</th><th>assume</th><th>both</th><th>total</th></tr></thead>
+<tbody>
+<tr ><td>01_closure_materialization</td><td>leak</td><td>12</td><td>1</td><td>1</td><td>12</td></tr>
+<tr ><td>01_closure_materialization</td><td>double_free</td><td>4</td><td>13</td><td>4</td><td>13</td></tr>
+<tr ><td>01_closure_materialization</td><td>UAF</td><td>4</td><td>13</td><td>4</td><td>13</td></tr>
+<tr ><td>02_callback_state</td><td>leak</td><td>9</td><td>0</td><td>0</td><td>9</td></tr>
+<tr ><td>02_callback_state</td><td>double_free</td><td>2</td><td>9</td><td>1</td><td>10</td></tr>
+<tr ><td>02_callback_state</td><td>UAF</td><td>2</td><td>9</td><td>1</td><td>10</td></tr>
+<tr ><td>03_subobject_invalidation</td><td>double_free</td><td>3</td><td>11</td><td>3</td><td>11</td></tr>
+<tr ><td>03_subobject_invalidation</td><td>UAF</td><td>3</td><td>11</td><td>3</td><td>11</td></tr>
+<tr ><td>04_receiver_field_state</td><td>double_free</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+<tr ><td>04_receiver_field_state</td><td>UAF</td><td>0</td><td>6</td><td>0</td><td>6</td></tr>
+<tr ><td>05_template_semantic_target</td><td>leak</td><td>5</td><td>5</td><td>5</td><td>5</td></tr>
+<tr ><td>05_template_semantic_target</td><td>double_free</td><td>4</td><td>5</td><td>4</td><td>5</td></tr>
+<tr ><td>05_template_semantic_target</td><td>UAF</td><td>4</td><td>5</td><td>4</td><td>5</td></tr>
+<tr ><td>07_composite_dispatch</td><td>double_free</td><td>0</td><td>4</td><td>0</td><td>4</td></tr>
+<tr ><td>07_composite_dispatch</td><td>UAF</td><td>0</td><td>4</td><td>0</td><td>4</td></tr>
+<tr ><td>08_anchor_constrained_witness</td><td>leak</td><td>4</td><td>1</td><td>1</td><td>4</td></tr>
+<tr ><td>08_anchor_constrained_witness</td><td>double_free</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+<tr ><td>08_anchor_constrained_witness</td><td>UAF</td><td>0</td><td>5</td><td>0</td><td>5</td></tr>
+<tr class="total-row"><td>TOTAL</td><td>leak</td><td>30</td><td>7</td><td>7</td><td>30</td></tr>
+<tr class="total-row"><td>TOTAL</td><td>double_free</td><td>13</td><td>48</td><td>12</td><td>49</td></tr>
+<tr class="total-row"><td>TOTAL</td><td>UAF</td><td>13</td><td>53</td><td>12</td><td>54</td></tr>
+</tbody></table>
+<p><em>Generated at: 2026-08-24 13:00:10</em></p>
+</body>
+</html>
