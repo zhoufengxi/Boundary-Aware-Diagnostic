@@ -1,0 +1,705 @@
+{
+  "Android": {
+    "action_pairing": {
+      "paired_analysis_actions": 29758,
+      "status_groups": {
+        "baseline_only": 137,
+        "ours_only": 737,
+        "paired": 29758
+      }
+    },
+    "baseline_only_instances": {
+      "count": 398,
+      "lifecycle_applicable": 99,
+      "lifecycle_complete": 72
+    },
+    "evidence_transitions": {
+      "allocation": {
+        "absent_in_both": 1060,
+        "gained": 9,
+        "retained": 2353
+      },
+      "branch": {
+        "absent_in_both": 5,
+        "retained": 3417
+      },
+      "release": {
+        "absent_in_both": 1907,
+        "retained": 1515
+      }
+    },
+    "evidence_transitions_by_kind": {
+      "double_free": {
+        "allocation": {
+          "absent_in_both": 20,
+          "retained": 19
+        },
+        "branch": {
+          "retained": 39
+        },
+        "release": {
+          "retained": 39
+        }
+      },
+      "leak": {
+        "allocation": {
+          "retained": 1907
+        },
+        "branch": {
+          "absent_in_both": 4,
+          "retained": 1903
+        },
+        "release": {
+          "absent_in_both": 1907
+        }
+      },
+      "uaf": {
+        "allocation": {
+          "absent_in_both": 1040,
+          "gained": 9,
+          "retained": 427
+        },
+        "branch": {
+          "absent_in_both": 1,
+          "retained": 1475
+        },
+        "release": {
+          "retained": 1476
+        }
+      }
+    },
+    "global_unique_issues": {
+      "baseline": 5546,
+      "baseline_only": 109,
+      "baseline_only_by_kind": {
+        "double_free": {
+          "all_instances_complete": 1,
+          "all_with_allocation": 1,
+          "all_with_branch": 1,
+          "all_with_release": 1,
+          "any_with_allocation": 1,
+          "any_with_branch": 1,
+          "any_with_release": 1,
+          "issues": 1,
+          "lifecycle_applicable": 1
+        },
+        "leak": {
+          "all_instances_complete": 60,
+          "all_with_allocation": 60,
+          "all_with_branch": 60,
+          "all_with_release": 0,
+          "any_with_allocation": 60,
+          "any_with_branch": 60,
+          "any_with_release": 0,
+          "issues": 60,
+          "lifecycle_applicable": 60
+        },
+        "other": {
+          "all_with_allocation": 0,
+          "all_with_branch": 0,
+          "all_with_release": 0,
+          "any_with_allocation": 0,
+          "any_with_branch": 0,
+          "any_with_release": 0,
+          "issues": 42
+        },
+        "uaf": {
+          "all_instances_complete": 0,
+          "all_with_allocation": 0,
+          "all_with_branch": 6,
+          "all_with_release": 6,
+          "any_with_allocation": 0,
+          "any_with_branch": 6,
+          "any_with_release": 6,
+          "issues": 6,
+          "lifecycle_applicable": 6
+        }
+      },
+      "baseline_only_completeness": {
+        "all_instances_complete": 61,
+        "applicable": 67,
+        "at_least_one_instance_complete": 61,
+        "count": 109
+      },
+      "common": 5437,
+      "ours": 11210,
+      "ours_only": 5773,
+      "ours_only_by_kind": {
+        "double_free": {
+          "all_instances_complete": 1,
+          "all_with_allocation": 1,
+          "all_with_branch": 5,
+          "all_with_release": 5,
+          "any_with_allocation": 1,
+          "any_with_branch": 5,
+          "any_with_release": 5,
+          "issues": 5,
+          "lifecycle_applicable": 5
+        },
+        "leak": {
+          "all_instances_complete": 5594,
+          "all_with_allocation": 5594,
+          "all_with_branch": 5447,
+          "all_with_release": 0,
+          "any_with_allocation": 5594,
+          "any_with_branch": 5455,
+          "any_with_release": 0,
+          "issues": 5594,
+          "lifecycle_applicable": 5594
+        },
+        "other": {
+          "all_with_allocation": 0,
+          "all_with_branch": 0,
+          "all_with_release": 0,
+          "any_with_allocation": 0,
+          "any_with_branch": 0,
+          "any_with_release": 0,
+          "issues": 150
+        },
+        "uaf": {
+          "all_instances_complete": 2,
+          "all_with_allocation": 2,
+          "all_with_branch": 24,
+          "all_with_release": 24,
+          "any_with_allocation": 3,
+          "any_with_branch": 24,
+          "any_with_release": 24,
+          "issues": 24,
+          "lifecycle_applicable": 24
+        }
+      },
+      "ours_only_completeness": {
+        "all_instances_complete": 5597,
+        "applicable": 5623,
+        "at_least_one_instance_complete": 5598,
+        "count": 5773
+      }
+    },
+    "input_metadata": {
+      "baseline_analyzer_version": "",
+      "baseline_checker_groups": [
+        "cplusplus",
+        "core",
+        "unix"
+      ],
+      "baseline_existing_result_plists": 29895,
+      "baseline_missing_result_plists": 0,
+      "baseline_missing_results": [],
+      "baseline_planned_actions": 30634,
+      "baseline_result_plists": 29895,
+      "baseline_working_directory": "/artifact/android",
+      "ours_analyzer_version": "",
+      "ours_checker_groups": [
+        "cplusplus",
+        "core",
+        "unix"
+      ],
+      "ours_existing_result_plists": 30495,
+      "ours_missing_result_plists": 14,
+      "ours_missing_results": [
+        {
+          "plist": "pthread_h.c_clangsa_6dc8db2fd89a3562ac9108bb58fa1a0f.plist",
+          "source": "bionic/tests/headers/posix/pthread_h.c"
+        },
+        {
+          "plist": "enc_output_format_tab.cpp_clangsa_8cc7ed734252f362869aea703e75fd31.plist",
+          "source": "frameworks/av/media/module/codecs/amrnb/enc/src/enc_output_format_tab.cpp"
+        },
+        {
+          "plist": "ihevc_quant_tables.c_clangsa_c0e4576f99452174be47d30fc3ddaad8.plist",
+          "source": "external/libhevc/common/ihevc_quant_tables.c"
+        },
+        {
+          "plist": "ETC_Decoder.cpp_clangsa_733ac94513e2cf9c6f43e4560fd7ab28.plist",
+          "source": "external/swiftshader/src/Device/ETC_Decoder.cpp"
+        },
+        {
+          "plist": "ih264e_globals.c_clangsa_9d0d2e1e32ce9c4471aebfcf602c1416.plist",
+          "source": "external/libavc/encoder/ih264e_globals.c"
+        },
+        {
+          "plist": "s_ilogb.c_clangsa_cc9669b00aa2f2e81f42e3d8018fe7ee.plist",
+          "source": "external/fdlibm/s_ilogb.c"
+        },
+        {
+          "plist": "DisplayConnectionType.cpp_clangsa_52fcffdebfa5f407c84fc0ef5dcb4526.plist",
+          "source": "out/soong/.intermediates/frameworks/native/libs/gui/libgui_aidl_static/android_x86_silvermont_static_lto-thin/a7ec4cedd350a9f16160166d32d1dd66/gen/aidl_library/android/gui/DisplayConnectionType.cpp"
+        },
+        {
+          "plist": "windows_listener.cc_clangsa_d70438659977898f9e03de0400d1e111.plist",
+          "source": "external/grpc-grpc/src/core/lib/event_engine/windows/windows_listener.cc"
+        },
+        {
+          "plist": "inline_variable_test_a.cc_clangsa_2f94b706090e8f699d492fcc9f1160fe.plist",
+          "source": "external/tensorflow/third_party/absl/abseil-cpp/absl/base/inline_variable_test_a.cc"
+        },
+        {
+          "plist": "DWARFLineInfo.cpp_clangsa_c30ebf1dd57caefd8e5606548c84c362.plist",
+          "source": "frameworks/compile/mclinker/lib/LD/DWARFLineInfo.cpp"
+        },
+        {
+          "plist": "s_fmax.c_clangsa_f0fe9ea7dd8b05433df4617f29d793c0.plist",
+          "source": "bionic/libm/upstream-freebsd/lib/msun/src/s_fmax.c"
+        },
+        {
+          "plist": "ixheaacd_rom.c_clangsa_5b0f4d25b780732765cee6f1318355ac.plist",
+          "source": "external/libxaac/decoder/ixheaacd_rom.c"
+        },
+        {
+          "plist": "socket_utils_windows.cc_clangsa_1f5496a11ce2ee35332b63ef1a7d736a.plist",
+          "source": "external/grpc-grpc/src/core/lib/iomgr/socket_utils_windows.cc"
+        },
+        {
+          "plist": "srp_server_api.cpp_clangsa_cdb8394936042be4c64640ee8345a9d9.plist",
+          "source": "external/openthread/src/core/api/srp_server_api.cpp"
+        }
+      ],
+      "ours_planned_actions": 30634,
+      "ours_result_plists": 30509,
+      "ours_working_directory": "/artifact/android"
+    },
+    "lifecycle_evidence_transitions": {
+      "allocation": {
+        "absent_in_both": 1060,
+        "gained": 9,
+        "retained": 2353
+      },
+      "branch": {
+        "absent_in_both": 5,
+        "retained": 3417
+      },
+      "release": {
+        "absent_in_both": 1907,
+        "retained": 1515
+      }
+    },
+    "matched_path_classification": {
+      "improved": 9,
+      "not_applicable": 20555,
+      "unchanged": 3413
+    },
+    "matched_unique_issue_classification": {
+      "improved": 5,
+      "not_applicable": 4151,
+      "unchanged": 1223
+    },
+    "ours_only_instances": {
+      "count": 13822,
+      "lifecycle_applicable": 11193,
+      "lifecycle_complete": 11069
+    },
+    "parse_errors": 0,
+    "path_instances": {
+      "ambiguous": 2096,
+      "baseline_only": 398,
+      "matched": 23977,
+      "ours_only": 13822,
+      "ours_surplus": 60
+    },
+    "reports_in_paired_actions": {
+      "baseline": {
+        "by_checker": {
+          "core.BitwiseShift": 3434,
+          "core.CallAndMessage": 7975,
+          "core.DivideZero": 609,
+          "core.NonNullParamChecker": 925,
+          "core.NullDereference": 4220,
+          "core.StackAddressEscape": 60,
+          "core.VLASize": 9,
+          "core.uninitialized.ArraySubscript": 17,
+          "core.uninitialized.Assign": 2019,
+          "core.uninitialized.Branch": 115,
+          "core.uninitialized.UndefReturn": 1807,
+          "cplusplus.InnerPointer": 1,
+          "cplusplus.Move": 97,
+          "cplusplus.NewDelete": 626,
+          "cplusplus.NewDeleteLeaks": 1106,
+          "cplusplus.PlacementNew": 12,
+          "cplusplus.PureVirtualCall": 4,
+          "unix.API": 4,
+          "unix.Errno": 55,
+          "unix.Malloc": 2206,
+          "unix.MallocSizeof": 40,
+          "unix.MismatchedDeallocator": 8,
+          "unix.StdCLibraryFunctions": 6,
+          "unix.Vfork": 53,
+          "unix.cstring.NullArg": 15
+        },
+        "by_checker_family": {
+          "core": 21190,
+          "cplusplus": 1846,
+          "unix": 2387
+        },
+        "by_kind": {
+          "double_free": 40,
+          "leak": 2087,
+          "other": 21791,
+          "uaf": 1505
+        },
+        "lifecycle_applicable_instances": 3632,
+        "lifecycle_complete_instances": 2536,
+        "report_instances": 25423,
+        "unique_terminal_issues": 5546
+      },
+      "ours": {
+        "by_checker": {
+          "core.BitwiseShift": 3437,
+          "core.CallAndMessage": 9488,
+          "core.DivideZero": 639,
+          "core.NonNullParamChecker": 914,
+          "core.NullDereference": 4225,
+          "core.StackAddressEscape": 61,
+          "core.VLASize": 9,
+          "core.uninitialized.ArraySubscript": 21,
+          "core.uninitialized.Assign": 2050,
+          "core.uninitialized.Branch": 114,
+          "core.uninitialized.UndefReturn": 2569,
+          "cplusplus.InnerPointer": 1,
+          "cplusplus.Move": 96,
+          "cplusplus.NewDelete": 686,
+          "cplusplus.NewDeleteLeaks": 5037,
+          "cplusplus.PlacementNew": 13,
+          "cplusplus.PureVirtualCall": 4,
+          "unix.API": 4,
+          "unix.Errno": 55,
+          "unix.Malloc": 9362,
+          "unix.MallocSizeof": 40,
+          "unix.MismatchedDeallocator": 8,
+          "unix.StdCLibraryFunctions": 6,
+          "unix.Vfork": 52,
+          "unix.cstring.NullArg": 16
+        },
+        "by_checker_family": {
+          "core": 23527,
+          "cplusplus": 5837,
+          "unix": 9543
+        },
+        "by_kind": {
+          "double_free": 47,
+          "leak": 13127,
+          "other": 24125,
+          "uaf": 1608
+        },
+        "lifecycle_applicable_instances": 14782,
+        "lifecycle_complete_instances": 13598,
+        "report_instances": 38907,
+        "unique_terminal_issues": 11210
+      }
+    },
+    "terminal_issue_groups": {
+      "ambiguous": 273,
+      "baseline_only": 390,
+      "common": 23927,
+      "ours_only": 11685
+    }
+  },
+  "OpenHarmony": {
+    "action_pairing": {
+      "paired_analysis_actions": 2598,
+      "status_groups": {
+        "baseline_only": 3,
+        "ours_only": 378,
+        "paired": 2598
+      }
+    },
+    "baseline_only_instances": {
+      "count": 36,
+      "lifecycle_applicable": 8,
+      "lifecycle_complete": 7
+    },
+    "case_studies": [
+      {
+        "case": "shared_event_data_uaf",
+        "dataset": "OpenHarmony",
+        "lifecycle_complete": 0,
+        "report_instances": 0,
+        "side": "baseline",
+        "terminal_locations": "",
+        "unique_issues": 0,
+        "with_allocation": 0,
+        "with_branch": 0,
+        "with_release": 0
+      },
+      {
+        "case": "shared_event_data_uaf",
+        "dataset": "OpenHarmony",
+        "lifecycle_complete": 4,
+        "report_instances": 4,
+        "side": "ours",
+        "terminal_locations": "foundation/communication/netmanager_base/utils/napi_utils/src/event_manager.cpp:104:32",
+        "unique_issues": 1,
+        "with_allocation": 4,
+        "with_branch": 4,
+        "with_release": 4
+      },
+      {
+        "case": "failed_napi_wrap_cleanup",
+        "dataset": "OpenHarmony",
+        "lifecycle_complete": 0,
+        "report_instances": 0,
+        "side": "baseline",
+        "terminal_locations": "",
+        "unique_issues": 0,
+        "with_allocation": 0,
+        "with_branch": 0,
+        "with_release": 0
+      },
+      {
+        "case": "failed_napi_wrap_cleanup",
+        "dataset": "OpenHarmony",
+        "lifecycle_complete": 1,
+        "report_instances": 1,
+        "side": "ours",
+        "terminal_locations": "base/web/webview/interfaces/kits/napi/webviewcontroller/webview_javascript_execute_callback.cpp:222:16",
+        "unique_issues": 1,
+        "with_allocation": 1,
+        "with_branch": 1,
+        "with_release": 0
+      },
+      {
+        "case": "custom_shared_ptr_ownership",
+        "dataset": "OpenHarmony",
+        "lifecycle_complete": 0,
+        "report_instances": 0,
+        "side": "baseline",
+        "terminal_locations": "",
+        "unique_issues": 0,
+        "with_allocation": 0,
+        "with_branch": 0,
+        "with_release": 0
+      },
+      {
+        "case": "custom_shared_ptr_ownership",
+        "dataset": "OpenHarmony",
+        "lifecycle_complete": 124,
+        "report_instances": 124,
+        "side": "ours",
+        "terminal_locations": "foundation/graphic/graphic_3d/lume/LumeMeta/include/meta/ext/object_factory.h:71:9",
+        "unique_issues": 1,
+        "with_allocation": 124,
+        "with_branch": 2,
+        "with_release": 0
+      }
+    ],
+    "evidence_transitions": {
+      "allocation": {
+        "absent_in_both": 26,
+        "retained": 554
+      },
+      "branch": {
+        "absent_in_both": 8,
+        "retained": 572
+      },
+      "release": {
+        "absent_in_both": 550,
+        "retained": 30
+      }
+    },
+    "evidence_transitions_by_kind": {
+      "leak": {
+        "allocation": {
+          "retained": 550
+        },
+        "branch": {
+          "absent_in_both": 8,
+          "retained": 542
+        },
+        "release": {
+          "absent_in_both": 550
+        }
+      },
+      "uaf": {
+        "allocation": {
+          "absent_in_both": 26,
+          "retained": 4
+        },
+        "branch": {
+          "retained": 30
+        },
+        "release": {
+          "retained": 30
+        }
+      }
+    },
+    "global_unique_issues": {
+      "baseline": 424,
+      "baseline_only": 26,
+      "baseline_only_by_kind": {
+        "leak": {
+          "all_instances_complete": 3,
+          "all_with_allocation": 3,
+          "all_with_branch": 3,
+          "all_with_release": 0,
+          "any_with_allocation": 3,
+          "any_with_branch": 3,
+          "any_with_release": 0,
+          "issues": 3,
+          "lifecycle_applicable": 3
+        },
+        "other": {
+          "all_with_allocation": 0,
+          "all_with_branch": 0,
+          "all_with_release": 0,
+          "any_with_allocation": 0,
+          "any_with_branch": 0,
+          "any_with_release": 0,
+          "issues": 23
+        }
+      },
+      "baseline_only_completeness": {
+        "all_instances_complete": 3,
+        "applicable": 3,
+        "at_least_one_instance_complete": 3,
+        "count": 26
+      },
+      "common": 398,
+      "ours": 1089,
+      "ours_only": 691,
+      "ours_only_by_kind": {
+        "leak": {
+          "all_instances_complete": 602,
+          "all_with_allocation": 602,
+          "all_with_branch": 378,
+          "all_with_release": 0,
+          "any_with_allocation": 602,
+          "any_with_branch": 382,
+          "any_with_release": 0,
+          "issues": 602,
+          "lifecycle_applicable": 602
+        },
+        "other": {
+          "all_with_allocation": 0,
+          "all_with_branch": 0,
+          "all_with_release": 0,
+          "any_with_allocation": 0,
+          "any_with_branch": 0,
+          "any_with_release": 0,
+          "issues": 87
+        },
+        "uaf": {
+          "all_instances_complete": 2,
+          "all_with_allocation": 2,
+          "all_with_branch": 2,
+          "all_with_release": 2,
+          "any_with_allocation": 2,
+          "any_with_branch": 2,
+          "any_with_release": 2,
+          "issues": 2,
+          "lifecycle_applicable": 2
+        }
+      },
+      "ours_only_completeness": {
+        "all_instances_complete": 604,
+        "applicable": 604,
+        "at_least_one_instance_complete": 604,
+        "count": 691
+      }
+    },
+    "lifecycle_evidence_transitions": {
+      "allocation": {
+        "absent_in_both": 26,
+        "retained": 554
+      },
+      "branch": {
+        "absent_in_both": 8,
+        "retained": 572
+      },
+      "release": {
+        "absent_in_both": 550,
+        "retained": 30
+      }
+    },
+    "matched_path_classification": {
+      "not_applicable": 327,
+      "unchanged": 580
+    },
+    "matched_unique_issue_classification": {
+      "not_applicable": 180,
+      "unchanged": 217
+    },
+    "ours_only_instances": {
+      "count": 3148,
+      "lifecycle_applicable": 2717,
+      "lifecycle_complete": 2714
+    },
+    "parse_errors": 0,
+    "path_instances": {
+      "ambiguous": 72,
+      "baseline_only": 36,
+      "matched": 907,
+      "ours_only": 3148,
+      "ours_surplus": 58
+    },
+    "reports_in_paired_actions": {
+      "baseline": {
+        "by_checker": {
+          "core.CallAndMessage": 70,
+          "core.DivideZero": 2,
+          "core.NonNullParamChecker": 70,
+          "core.NullDereference": 96,
+          "core.uninitialized.Assign": 17,
+          "core.uninitialized.Branch": 42,
+          "core.uninitialized.UndefReturn": 26,
+          "cplusplus.InnerPointer": 29,
+          "cplusplus.Move": 1,
+          "cplusplus.NewDelete": 31,
+          "cplusplus.NewDeleteLeaks": 593,
+          "cplusplus.PlacementNew": 1,
+          "unix.cstring.NullArg": 1
+        },
+        "by_checker_family": {
+          "core": 323,
+          "cplusplus": 655,
+          "unix": 1
+        },
+        "by_kind": {
+          "leak": 593,
+          "other": 355,
+          "uaf": 31
+        },
+        "lifecycle_applicable_instances": 624,
+        "lifecycle_complete_instances": 597,
+        "report_instances": 979,
+        "unique_terminal_issues": 424
+      },
+      "ours": {
+        "by_checker": {
+          "core.CallAndMessage": 306,
+          "core.DivideZero": 2,
+          "core.NonNullParamChecker": 70,
+          "core.NullDereference": 95,
+          "core.uninitialized.Assign": 50,
+          "core.uninitialized.Branch": 79,
+          "core.uninitialized.UndefReturn": 124,
+          "cplusplus.InnerPointer": 29,
+          "cplusplus.Move": 1,
+          "cplusplus.NewDelete": 38,
+          "cplusplus.NewDeleteLeaks": 3322,
+          "cplusplus.PlacementNew": 1,
+          "unix.Malloc": 31,
+          "unix.cstring.NullArg": 1
+        },
+        "by_checker_family": {
+          "core": 726,
+          "cplusplus": 3391,
+          "unix": 32
+        },
+        "by_kind": {
+          "leak": 3353,
+          "other": 758,
+          "uaf": 38
+        },
+        "lifecycle_applicable_instances": 3391,
+        "lifecycle_complete_instances": 3362,
+        "report_instances": 4149,
+        "unique_terminal_issues": 1089
+      }
+    },
+    "terminal_issue_groups": {
+      "ambiguous": 1,
+      "baseline_only": 36,
+      "common": 871,
+      "ours_only": 3023
+    }
+  }
+}

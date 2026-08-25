@@ -1107,7 +1107,7 @@
  </array>
  <key>files</key>
  <array>
-  <string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/01_closure_materialization/mixed_capture_string.cpp</string>
+  <string>/artifact/diagnostic_state_suite_v3/01_closure_materialization/mixed_capture_string.cpp</string>
   <string>/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h</string>
  </array>
 </dict>

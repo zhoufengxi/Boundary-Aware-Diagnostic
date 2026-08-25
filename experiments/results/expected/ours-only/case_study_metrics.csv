@@ -1,0 +1,7 @@
+dataset,case,side,report_instances,unique_issues,with_allocation,with_release,with_branch,lifecycle_complete,terminal_locations
+OpenHarmony,shared_event_data_uaf,baseline,0,0,0,0,0,0,
+OpenHarmony,shared_event_data_uaf,ours,4,1,4,4,4,4,foundation/communication/netmanager_base/utils/napi_utils/src/event_manager.cpp:104:32
+OpenHarmony,failed_napi_wrap_cleanup,baseline,0,0,0,0,0,0,
+OpenHarmony,failed_napi_wrap_cleanup,ours,1,1,1,0,1,1,base/web/webview/interfaces/kits/napi/webviewcontroller/webview_javascript_execute_callback.cpp:222:16
+OpenHarmony,custom_shared_ptr_ownership,baseline,0,0,0,0,0,0,
+OpenHarmony,custom_shared_ptr_ownership,ours,124,1,124,0,2,124,foundation/graphic/graphic_3d/lume/LumeMeta/include/meta/ext/object_factory.h:71:9

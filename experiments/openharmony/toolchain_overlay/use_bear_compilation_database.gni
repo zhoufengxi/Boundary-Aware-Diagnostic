@@ -1,0 +1,3 @@
+declare_args() {
+  use_bear_compilation_database = true
+}

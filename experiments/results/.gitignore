@@ -1,0 +1,4 @@
+analysis_output/
+unpacked/
+*.tar.zst
+*.tar.zst.part-*

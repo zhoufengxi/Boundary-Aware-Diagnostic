@@ -1,0 +1,56 @@
+{
+  "datasets": [
+    {
+      "archive": "openharmony-ours-plists.tar.zst",
+      "archive_root": "openharmony/reports_exp_64",
+      "archive_sha256": "47b464f7736ac71a4a03f41321ac6c01e77cc4ac7448995f75b8db66aa5ce721",
+      "compressed_bytes": 17270316,
+      "compression": "zstd level 3",
+      "configuration": "ours",
+      "dataset": "OpenHarmony",
+      "diagnostic_entries": 4283,
+      "metadata_files": 0,
+      "parts": [
+        {
+          "bytes": 17270316,
+          "file": "openharmony-ours-plists.tar.zst",
+          "sha256": "47b464f7736ac71a4a03f41321ac6c01e77cc4ac7448995f75b8db66aa5ce721"
+        }
+      ],
+      "plist_files": 2976,
+      "raw_bytes": 1387051054,
+      "sanitization_replacements": {
+        "/artifact/openharmony": 13387,
+        "/artifact/toolchain": 1854
+      },
+      "sanitized_bytes": 1386926236
+    },
+    {
+      "archive": "android-ours-plists.tar.zst",
+      "archive_root": "android/reports_exp2_64",
+      "archive_sha256": "4c446a7413275ebde9f6e316dec785d33f1e21d2b122ed64c0fd598ee1335e79",
+      "compressed_bytes": 272259153,
+      "compression": "zstd level 3",
+      "configuration": "ours",
+      "dataset": "Android",
+      "diagnostic_entries": 43088,
+      "metadata_files": 1,
+      "parts": [
+        {
+          "bytes": 272259153,
+          "file": "android-ours-plists.tar.zst",
+          "sha256": "4c446a7413275ebde9f6e316dec785d33f1e21d2b122ed64c0fd598ee1335e79"
+        }
+      ],
+      "plist_files": 30495,
+      "raw_bytes": 28948716892,
+      "sanitization_replacements": {
+        "/artifact/android": 226073,
+        "/artifact/toolchain": 20244
+      },
+      "sanitized_bytes": 28946709269
+    }
+  ],
+  "description": "Path-sanitized ours-only CodeChecker plist results",
+  "format_version": 1
+}

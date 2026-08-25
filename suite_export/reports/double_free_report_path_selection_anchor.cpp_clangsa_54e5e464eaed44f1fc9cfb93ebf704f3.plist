@@ -2113,9 +2113,9 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness/anchor_callback_dispatch.cpp</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness/double_free_report_path_selection_anchor.cpp</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness/double_free_report_path_selection_anchor.h</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness/anchor_callback_dispatch.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness/double_free_report_path_selection_anchor.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness/double_free_report_path_selection_anchor.h</string>
 	</array>
 	<key>metadata</key>
 	<dict>

@@ -2418,7 +2418,7 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation/array_element_subobject_variant.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation/array_element_subobject_variant.cpp</string>
 		<string>/usr/include/c++/9/bits/basic_string.h</string>
 	</array>
 	<key>metadata</key>

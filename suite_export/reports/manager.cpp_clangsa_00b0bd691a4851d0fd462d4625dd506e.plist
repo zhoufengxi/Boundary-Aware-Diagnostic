@@ -1375,7 +1375,7 @@
 						<integer>11</integer>
 					</dict>
 					<key>message</key>
-					<string>Calling 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
+					<string>Calling 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
 					<key>ranges</key>
 					<array>
 						<array>
@@ -1489,7 +1489,7 @@
 						<integer>903</integer>
 					</dict>
 					<key>message</key>
-					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
+					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
 					<key>ranges</key>
 					<array>
 						<array>
@@ -1679,7 +1679,7 @@
 						<integer>11</integer>
 					</dict>
 					<key>message</key>
-					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
+					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
 					<key>ranges</key>
 					<array>
 						<array>
@@ -3406,7 +3406,7 @@
 						<integer>11</integer>
 					</dict>
 					<key>message</key>
-					<string>Calling 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
+					<string>Calling 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
 					<key>ranges</key>
 					<array>
 						<array>
@@ -3520,7 +3520,7 @@
 						<integer>903</integer>
 					</dict>
 					<key>message</key>
-					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
+					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
 					<key>ranges</key>
 					<array>
 						<array>
@@ -3710,7 +3710,7 @@
 						<integer>11</integer>
 					</dict>
 					<key>message</key>
-					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
+					<string>Entered call from 'for_each&lt;__gnu_cxx::__normal_iterator&lt;Listener *, std::vector&lt;Listener&gt;&gt;, (lambda at /artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp:11:52)&gt;'</string>
 					<key>ranges</key>
 					<array>
 						<array>
@@ -3966,9 +3966,9 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/event_data.h</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/listener.cpp</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/event_data.h</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/listener.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch/manager.cpp</string>
 		<string>/usr/include/c++/9/bits/basic_string.h</string>
 		<string>/usr/include/c++/9/bits/stl_algo.h</string>
 		<string>/usr/include/c++/9/bits/stl_iterator.h</string>

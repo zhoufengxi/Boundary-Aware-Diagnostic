@@ -9157,12 +9157,12 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/dep_b.h</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/nested_dep_b.h</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/order_dep_b.h</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/transitive_dep_b.h</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/user_dep_b.h</string>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/worker.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/dep_b.h</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/nested_dep_b.h</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/order_dep_b.h</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/transitive_dep_b.h</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/user_dep_b.h</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict/worker.cpp</string>
 	</array>
 	<key>metadata</key>
 	<dict>

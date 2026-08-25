@@ -3581,7 +3581,7 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization/custom_nontrivial_capture_variant.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization/custom_nontrivial_capture_variant.cpp</string>
 		<string>/usr/include/c++/9/bits/basic_string.h</string>
 	</array>
 	<key>metadata</key>

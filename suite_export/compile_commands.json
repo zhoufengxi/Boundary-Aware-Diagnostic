@@ -11,7 +11,7 @@
             "capture_count_three_variant.o",
             "capture_count_three_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "capture_count_three_variant.cpp"
     },
     {
@@ -26,7 +26,7 @@
             "anchor_callback_dispatch.o",
             "anchor_callback_dispatch.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
         "file": "anchor_callback_dispatch.cpp"
     },
     {
@@ -42,7 +42,7 @@
             "worker.o",
             "worker.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/99_negative_controls/user_conflict_negative",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/99_negative_controls/user_conflict_negative",
         "file": "worker.cpp"
     },
     {
@@ -58,7 +58,7 @@
             "transitive_dependency_conflict_variant.o",
             "transitive_dependency_conflict_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
         "file": "transitive_dependency_conflict_variant.cpp"
     },
     {
@@ -74,7 +74,7 @@
             "template_outer_caller.o",
             "template_outer_caller.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "template_outer_caller.cpp"
     },
     {
@@ -89,7 +89,7 @@
             "mutable_capture_variant.o",
             "mutable_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "mutable_capture_variant.cpp"
     },
     {
@@ -104,7 +104,7 @@
             "mixed_capture_string.o",
             "mixed_capture_string.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "mixed_capture_string.cpp"
     },
     {
@@ -119,7 +119,7 @@
             "callback_outer_delete_variant.o",
             "callback_outer_delete_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "callback_outer_delete_variant.cpp"
     },
     {
@@ -134,7 +134,7 @@
             "temporary_callback_object_variant.o",
             "temporary_callback_object_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "temporary_callback_object_variant.cpp"
     },
     {
@@ -149,7 +149,7 @@
             "protected_field_friend_variant.o",
             "protected_field_friend_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "protected_field_friend_variant.cpp"
     },
     {
@@ -164,7 +164,7 @@
             "direct_invoke_mixed_capture_variant.o",
             "direct_invoke_mixed_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "direct_invoke_mixed_capture_variant.cpp"
     },
     {
@@ -179,7 +179,7 @@
             "reference_callback_capture_variant.o",
             "reference_callback_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "reference_callback_capture_variant.cpp"
     },
     {
@@ -194,7 +194,7 @@
             "multiple_nontrivial_members_variant.o",
             "multiple_nontrivial_members_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "multiple_nontrivial_members_variant.cpp"
     },
     {
@@ -210,7 +210,7 @@
             "dependency_order_after_variant.o",
             "dependency_order_after_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
         "file": "dependency_order_after_variant.cpp"
     },
     {
@@ -225,7 +225,7 @@
             "nested_private_subobject_friend_variant.o",
             "nested_private_subobject_friend_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "nested_private_subobject_friend_variant.cpp"
     },
     {
@@ -240,7 +240,7 @@
             "unknown_object_mutation.o",
             "unknown_object_mutation.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/99_negative_controls",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/99_negative_controls",
         "file": "unknown_object_mutation.cpp"
     },
     {
@@ -255,7 +255,7 @@
             "for_each_leak_anchor.o",
             "for_each_leak_anchor.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
         "file": "for_each_leak_anchor.cpp"
     },
     {
@@ -271,7 +271,7 @@
             "template_outer_callee.o",
             "template_outer_callee.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "template_outer_callee.cpp"
     },
     {
@@ -287,7 +287,7 @@
             "listener.o",
             "listener.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
         "file": "listener.cpp"
     },
     {
@@ -302,7 +302,7 @@
             "base_subobject_variant.o",
             "base_subobject_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "base_subobject_variant.cpp"
     },
     {
@@ -317,7 +317,7 @@
             "public_accessor_then_external_delete_variant.o",
             "public_accessor_then_external_delete_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
         "file": "public_accessor_then_external_delete_variant.cpp"
     },
     {
@@ -332,7 +332,7 @@
             "stored_then_passed_callback_variant.o",
             "stored_then_passed_callback_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "stored_then_passed_callback_variant.cpp"
     },
     {
@@ -347,7 +347,7 @@
             "double_free_report_path_selection_anchor.o",
             "double_free_report_path_selection_anchor.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
         "file": "double_free_report_path_selection_anchor.cpp"
     },
     {
@@ -362,7 +362,7 @@
             "default_by_value_capture_variant.o",
             "default_by_value_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "default_by_value_capture_variant.cpp"
     },
     {
@@ -377,7 +377,7 @@
             "array_element_subobject_variant.o",
             "array_element_subobject_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "array_element_subobject_variant.cpp"
     },
     {
@@ -393,7 +393,7 @@
             "manager.o",
             "manager.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/99_negative_controls/user_conflict_negative",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/99_negative_controls/user_conflict_negative",
         "file": "manager.cpp"
     },
     {
@@ -408,7 +408,7 @@
             "capture_pointer_only.o",
             "capture_pointer_only.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "capture_pointer_only.cpp"
     },
     {
@@ -423,7 +423,7 @@
             "std_for_each_callback.o",
             "std_for_each_callback.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "std_for_each_callback.cpp"
     },
     {
@@ -439,7 +439,7 @@
             "template_non_type_param_variant.o",
             "template_non_type_param_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "template_non_type_param_variant.cpp"
     },
     {
@@ -455,7 +455,7 @@
             "worker.o",
             "worker.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
         "file": "worker.cpp"
     },
     {
@@ -471,7 +471,7 @@
             "nested_template_chain_variant.o",
             "nested_template_chain_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "nested_template_chain_variant.cpp"
     },
     {
@@ -487,7 +487,7 @@
             "template_lambda_body_variant.o",
             "template_lambda_body_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "template_lambda_body_variant.cpp"
     },
     {
@@ -503,7 +503,7 @@
             "user_dependency_conflict_negative_variant.o",
             "user_dependency_conflict_negative_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
         "file": "user_dependency_conflict_negative_variant.cpp"
     },
     {
@@ -519,7 +519,7 @@
             "custom_iterator_dispatch_variant.o",
             "custom_iterator_dispatch_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
         "file": "custom_iterator_dispatch_variant.cpp"
     },
     {
@@ -534,7 +534,7 @@
             "transform_leak_anchor_variant.o",
             "transform_leak_anchor_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
         "file": "transform_leak_anchor_variant.cpp"
     },
     {
@@ -550,7 +550,7 @@
             "template_direct_caller.o",
             "template_direct_caller.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "template_direct_caller.cpp"
     },
     {
@@ -565,7 +565,7 @@
             "unknown_lambda_escape_variant.o",
             "unknown_lambda_escape_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/99_negative_controls",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/99_negative_controls",
         "file": "unknown_lambda_escape_variant.cpp"
     },
     {
@@ -580,7 +580,7 @@
             "custom_nontrivial_capture_variant.o",
             "custom_nontrivial_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "custom_nontrivial_capture_variant.cpp"
     },
     {
@@ -596,7 +596,7 @@
             "dependency_order_before_variant.o",
             "dependency_order_before_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
         "file": "dependency_order_before_variant.cpp"
     },
     {
@@ -612,7 +612,7 @@
             "nested_dependency_conflict_variant.o",
             "nested_dependency_conflict_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
         "file": "nested_dependency_conflict_variant.cpp"
     },
     {
@@ -627,7 +627,7 @@
             "capture_order_variant.o",
             "capture_order_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "capture_order_variant.cpp"
     },
     {
@@ -642,7 +642,7 @@
             "pointer_between_nontrivial_members_variant.o",
             "pointer_between_nontrivial_members_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "pointer_between_nontrivial_members_variant.cpp"
     },
     {
@@ -657,7 +657,7 @@
             "unknown_member_mutation_variant.o",
             "unknown_member_mutation_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/99_negative_controls",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/99_negative_controls",
         "file": "unknown_member_mutation_variant.cpp"
     },
     {
@@ -672,7 +672,7 @@
             "field_reference_return_variant.o",
             "field_reference_return_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
         "file": "field_reference_return_variant.cpp"
     },
     {
@@ -687,7 +687,7 @@
             "nested_lambda_capture_variant.o",
             "nested_lambda_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "nested_lambda_capture_variant.cpp"
     },
     {
@@ -703,7 +703,7 @@
             "class_template_member_variant.o",
             "class_template_member_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "class_template_member_variant.cpp"
     },
     {
@@ -719,7 +719,7 @@
             "manager.o",
             "manager.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/06_dependency_import_conflict",
         "file": "manager.cpp"
     },
     {
@@ -734,7 +734,7 @@
             "reference_trivial_capture_variant.o",
             "reference_trivial_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "reference_trivial_capture_variant.cpp"
     },
     {
@@ -749,7 +749,7 @@
             "chained_getter_variant.o",
             "chained_getter_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
         "file": "chained_getter_variant.cpp"
     },
     {
@@ -764,7 +764,7 @@
             "private_friend_getter_variant.o",
             "private_friend_getter_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
         "file": "private_friend_getter_variant.cpp"
     },
     {
@@ -780,7 +780,7 @@
             "manager.o",
             "manager.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
         "file": "manager.cpp"
     },
     {
@@ -795,7 +795,7 @@
             "init_capture_variant.o",
             "init_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "init_capture_variant.cpp"
     },
     {
@@ -810,7 +810,7 @@
             "functor_object_callback_variant.o",
             "functor_object_callback_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "functor_object_callback_variant.cpp"
     },
     {
@@ -825,7 +825,7 @@
             "stored_for_each_leak_anchor_variant.o",
             "stored_for_each_leak_anchor_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/08_anchor_constrained_witness",
         "file": "stored_for_each_leak_anchor_variant.cpp"
     },
     {
@@ -840,7 +840,7 @@
             "private_field_friend_variant.o",
             "private_field_friend_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "private_field_friend_variant.cpp"
     },
     {
@@ -856,7 +856,7 @@
             "multiple_listeners_dispatch_variant.o",
             "multiple_listeners_dispatch_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
         "file": "multiple_listeners_dispatch_variant.cpp"
     },
     {
@@ -871,7 +871,7 @@
             "std_transform_callback_variant.o",
             "std_transform_callback_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "std_transform_callback_variant.cpp"
     },
     {
@@ -886,7 +886,7 @@
             "nested_subobject_variant.o",
             "nested_subobject_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "nested_subobject_variant.cpp"
     },
     {
@@ -901,7 +901,7 @@
             "member_order_variant.o",
             "member_order_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "member_order_variant.cpp"
     },
     {
@@ -916,7 +916,7 @@
             "class_string_member_external_delete.o",
             "class_string_member_external_delete.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "class_string_member_external_delete.cpp"
     },
     {
@@ -931,7 +931,7 @@
             "struct_custom_nontrivial_member.o",
             "struct_custom_nontrivial_member.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/03_subobject_invalidation",
         "file": "struct_custom_nontrivial_member.cpp"
     },
     {
@@ -946,7 +946,7 @@
             "getter_returns_field.o",
             "getter_returns_field.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
         "file": "getter_returns_field.cpp"
     },
     {
@@ -961,7 +961,7 @@
             "reference_nontrivial_capture_variant.o",
             "reference_nontrivial_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "reference_nontrivial_capture_variant.cpp"
     },
     {
@@ -976,7 +976,7 @@
             "callback_capture_order_variant.o",
             "callback_capture_order_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "callback_capture_order_variant.cpp"
     },
     {
@@ -992,7 +992,7 @@
             "template_direct_callee.o",
             "template_direct_callee.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "template_direct_callee.cpp"
     },
     {
@@ -1007,7 +1007,7 @@
             "custom_for_each_callback.o",
             "custom_for_each_callback.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "custom_for_each_callback.cpp"
     },
     {
@@ -1023,7 +1023,7 @@
             "capture_order_dispatch_variant.o",
             "capture_order_dispatch_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/07_composite_dispatch",
         "file": "capture_order_dispatch_variant.cpp"
     },
     {
@@ -1038,7 +1038,7 @@
             "unknown_escape_after_call.o",
             "unknown_escape_after_call.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/99_negative_controls",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/99_negative_controls",
         "file": "unknown_escape_after_call.cpp"
     },
     {
@@ -1053,7 +1053,7 @@
             "const_receiver_getter_variant.o",
             "const_receiver_getter_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
         "file": "const_receiver_getter_variant.cpp"
     },
     {
@@ -1069,7 +1069,7 @@
             "member_template_variant.o",
             "member_template_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/05_template_semantic_target",
         "file": "member_template_variant.cpp"
     },
     {
@@ -1084,7 +1084,7 @@
             "nonconst_receiver_mutable_label_variant.o",
             "nonconst_receiver_mutable_label_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state",
         "file": "nonconst_receiver_mutable_label_variant.cpp"
     },
     {
@@ -1099,7 +1099,7 @@
             "nested_template_callback_variant.o",
             "nested_template_callback_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state",
         "file": "nested_template_callback_variant.cpp"
     },
     {
@@ -1114,7 +1114,7 @@
             "default_by_reference_capture_variant.o",
             "default_by_reference_capture_variant.cpp"
         ],
-        "directory": "/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
+        "directory": "/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization",
         "file": "default_by_reference_capture_variant.cpp"
     }
 ]

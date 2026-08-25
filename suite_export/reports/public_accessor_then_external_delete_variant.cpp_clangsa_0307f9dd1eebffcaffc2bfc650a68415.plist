@@ -1642,7 +1642,7 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state/public_accessor_then_external_delete_variant.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state/public_accessor_then_external_delete_variant.cpp</string>
 	</array>
 	<key>metadata</key>
 	<dict>

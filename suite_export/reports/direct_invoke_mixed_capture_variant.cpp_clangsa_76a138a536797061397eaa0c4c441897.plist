@@ -1344,7 +1344,7 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/01_closure_materialization/direct_invoke_mixed_capture_variant.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/01_closure_materialization/direct_invoke_mixed_capture_variant.cpp</string>
 	</array>
 	<key>metadata</key>
 	<dict>

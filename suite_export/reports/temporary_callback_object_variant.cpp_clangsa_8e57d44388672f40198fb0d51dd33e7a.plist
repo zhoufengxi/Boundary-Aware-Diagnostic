@@ -2545,7 +2545,7 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/02_callback_state/temporary_callback_object_variant.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/02_callback_state/temporary_callback_object_variant.cpp</string>
 		<string>/usr/include/c++/9/bits/basic_string.h</string>
 	</array>
 	<key>metadata</key>

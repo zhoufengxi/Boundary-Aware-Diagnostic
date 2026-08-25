@@ -1387,7 +1387,7 @@
 	</array>
 	<key>files</key>
 	<array>
-		<string>/home/zfx/workplace/Harmony/out/diagnostic_state_suite_v3/suite_export/04_receiver_field_state/getter_returns_field.cpp</string>
+		<string>/artifact/diagnostic_state_suite_v3/suite_export/04_receiver_field_state/getter_returns_field.cpp</string>
 	</array>
 	<key>metadata</key>
 	<dict>
